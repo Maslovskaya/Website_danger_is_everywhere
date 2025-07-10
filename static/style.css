@@ -1,0 +1,1744 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=East+Sea+Dokdo&family=Indie+Flower&family=Josefin+Sans&family=Neucha&family=Patrick+Hand&family=Permanent+Marker&family=Roboto&family=Rubik&family=Special+Elite&family=Yeon+Sung&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+ body, html {
+     width: 100%;
+     height: 100%;
+ }
+
+ body {
+     background-color: #fafafa;
+     font-family: Josefin Sans;
+ }
+
+ header {
+     width: 100%;
+     padding: 10px 0.5% 0px 0.5%;
+     background: transparent;
+     float: left;
+     position: fixed;
+ }
+
+ header #logo {
+     color: #fff;
+     cursor: pointer;
+
+ }
+
+  header #logo span {
+      font-size: 1.7em;
+      line-height: 45px;
+      margin-left: 40px;
+      font-family: 'Suez One', serif;
+  }
+
+  @media (min-width: 701px) {
+      #logo {
+          float: left;
+          width: 30%;
+          font-size: 1.1em;
+      }
+
+      #about {
+          float: right;
+          width: 67%;
+      }
+  }
+
+  @media (max-width: 700px) {
+      #logo {
+          margin-top: 15px;
+          width: 100%;
+          font-size: 1.5em;
+      }
+
+      #about {
+          float: left;
+          width: 100%;
+      }
+  }
+
+#about {
+    text-align: center;
+    font-size: 1em;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+#about > a {color: #fff}
+
+#about > a:hover {
+    color: #b0b0b0;
+    text-decoration: underline;
+}
+
+#about > a:not(:last-child) {
+    margin-right: 7%;
+}
+
+ /* Стили для фиксации шапки */
+
+.fixed {
+    z-index: 5000;
+    background-color: #fff;
+    border-bottom: 1px solid silver;
+}
+
+header .fixed #logo {
+    color: #343434;
+}
+
+.fixed #about > a {color: #000000}
+.fixed #about > a:hover {color: #7c7c7c}
+.fixed #logo {color: #000000}
+
+
+ /* Главный блок на сайте */
+
+
+#top {
+    width: 100%;
+    height: 1000px;
+    background-image: url(1.jpg);
+    background-blend-mode: multiply;
+    background-color: #4f616d;
+    background-size: cover;
+
+    text-align: center;
+    padding-top: 500px;
+    color: white;
+    font-size: 3em;
+}
+
+
+
+
+
+
+
+
+#top #container3  {
+  margin-left: 47%;
+     width: 100px;
+     height: 20px;
+     display: flex;
+     align-items: center;
+
+ }
+
+ #container3 {
+     justify-content: center;
+ }
+/*  Небольшой бутстрап на начало сайта */
+
+@media (min-width: 701px) {
+    #top {
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 700px) {
+    #top {
+        font-size: 2em;
+        padding-top: 350px;
+    }
+}
+
+@media (min-width: 701px) {
+    #container3 {
+        text-align: center;
+        margin-left: 46%;
+    }
+}
+
+@media (max-width: 700px) {
+    #top #container3 {
+        margin-left: 40%;
+    }
+}
+
+
+
+
+#top h1 {
+    padding-top: 30%;
+}
+
+#top h3 {
+    color: #ccc;
+}
+
+
+\
+
+
+
+
+
+#Minecraft3DObj {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 999;
+}
+
+
+
+
+/* Блок возможностей */
+
+#main {
+    padding: 100px 15%;
+    width: 70%;
+    float: left;
+    background-color: #f6f6f6;
+    border-top: 2px solid silver;
+    color: #2e2e2e;
+    font-size: 1.3em;
+}
+
+/*  Небольшой бутстрап на блок возможностей */
+
+@media (min-width: 1401px) {
+    #main {
+        padding: 100px 15%;
+        width: 70%;
+    }
+}
+@media (max-width: 1400px) {
+    #main{
+        padding: 100px 5%;
+        width: 90%;
+        font-size: 1em;
+    }
+}
+
+#main div {
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+}
+
+#main h2 {font-size: 2.5em;}
+#main h3 {font-size: 2em;}
+#main span {
+  color: #6E6E6E;
+  font-size: 1.3em;
+}
+
+
+@media (max-width: 1400px) {
+    #main div {
+        width: 98% !important;
+        margin-bottom: 20px;
+        font-size: 1em;
+
+    }
+}
+
+@media (max-width: 700px) {
+  #main img {
+    width: 80%!important;
+    margin-right: 0!important;
+    margin-left: 10%!important;
+  }
+}
+
+
+/* Блок с возможностями 2.0 */
+
+#main2 {
+  float: left;
+  background-color: #f6f6f6;
+  border-top: 2px solid silver;
+  color: #484848;
+  font-size: 1.3em;
+}
+
+@media (min-width: 1401px) {
+  #main2 {
+    padding: 100px 20%;
+    width: 60%;
+  }
+}
+
+@media (max-width: 1400px) {
+  #main2 {
+    padding: 100px 10%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  #main2 div {
+    width: 98%!important;
+    margin-bottom: 20px;
+  }
+}
+
+#main2 div {
+  width: 48%;
+  margin-right: 2%;
+  float: left;
+}
+
+#main2 h2 {font-size: 2em}
+#main2 span {color: #8F8F8F}
+
+
+
+
+
+/* Блок с возможностями 3.0 */
+
+#main3 {
+  float: left;
+  background-color: #f6f6f6;
+  border-top: 2px solid silver;
+  color: #484848;
+  font-size: 1.3em;
+}
+
+@media (min-width: 1401px) {
+  #main3 {
+    padding: 100px 20%;
+    width: 60%;
+  }
+}
+
+@media (max-width: 1400px) {
+  #main3 {
+    padding: 100px 10%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  #main3 div {
+    width: 98%!important;
+    margin-bottom: 20px;
+  }
+}
+
+#main3 div {
+  width: 48%;
+  margin-right: 2%;
+  float: left;
+}
+
+#main3 h2 {font-size: 2em}
+#main3 span {color: #8F8F8F}
+
+
+
+
+
+
+/* Блок с историей */
+
+#history {
+  float: left;
+  background-image: url(2.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history .slova {
+    float: left;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+
+#history h2 {font-size: 4em}
+#history h1 {color: #ccc; font-size: 1.5em}
+
+@media (min-width: 561px) {
+  #history h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history h2 {font-size: 2em}
+}
+
+#history .img {
+  float: right;
+  width: 30%;
+  margin-right: 11%;
+  margin-top: 60px;
+}
+
+#history .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+  margin-top: 60px;
+}
+
+#history img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history .img:nth-child(odd) {
+  margin-left: 18%;
+}
+
+
+@media (max-width: 700px) {
+  #history .img {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history .img1 {
+    width: 80%!important;
+    margin-right: 0!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history .slova {
+        width: 80% !important;
+        margin: 10% !important;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+
+
+/* Блок с история 2 */
+
+#history2 {
+  float: left;
+  background-image: url(3.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history2 .slova {
+    float: left;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+
+#history2 h2 {font-size: 4em}
+#history2 h1 {color: #ccc; font-size: 1.5em}
+#history2 .slova2 {font-size: 1.3em}
+
+
+@media (min-width: 561px) {
+  #history2 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history2 h2 {font-size: 2em}
+}
+
+#history2 .img {
+  float: right;
+  width: 30%;
+  margin-right: 11%;
+  margin-top: 50px;
+}
+
+#history2 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+  margin-top: 50px;
+}
+
+#history2 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history2 .img:nth-child(odd) {
+  margin-left: 18%;
+}
+
+
+@media (max-width: 700px) {
+  #history2 .img {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history2 .img1 {
+    width: 80%!important;
+    margin-right: 0!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history2 .slova {
+        width: 80% !important;
+        margin: 10% !important;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+
+
+
+#history4 {
+  float: left;
+  background-image: url(4.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history4 .slova {
+    float: left;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+
+#history4 h2 {font-size: 4em}
+#history4 h1 {color: #ccc; font-size: 1.5em}
+#history4 .slova2 {font-size: 1.3em}
+
+
+@media (min-width: 561px) {
+  #history4 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history4 h2 {font-size: 2em}
+}
+
+#history4 .img {
+  float: right;
+  width: 30%;
+  margin-right: 11%;
+}
+
+#history4 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+}
+
+#history4 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history4 .img:nth-child(odd) {
+  margin-left: 18%;
+}
+
+
+@media (max-width: 700px) {
+  #history4 .img {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history4 .img1 {
+    width: 80%!important;
+    margin-right: 0!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history4 .slova {
+        width: 80% !important;
+        margin: 10% !important;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+#history5 {
+  float: left;
+  background-image: url(5.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history5 .slova {
+    float: left;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+
+#history5 h2 {font-size: 4em}
+#history5 h1 {color: #ccc; font-size: 1.5em}
+#history5 .slova2 {font-size: 1.3em}
+
+
+@media (min-width: 561px) {
+  #history5 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history5 h2 {font-size: 2em}
+}
+
+#history5 .img {
+  float: right;
+  width: 30%;
+  margin-right: 11%;
+  margin-top: 50px;
+}
+
+#history5 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+  margin-top: 50px;
+}
+
+#history5 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history5 .img:nth-child(odd) {
+  margin-left: 18%;
+}
+
+
+@media (max-width: 700px) {
+  #history5 .img {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history5 .img1 {
+    width: 80%!important;
+    margin-right: 0!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history5 .slova {
+        width: 80% !important;
+        margin: 10% !important;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+#history6 {
+  float: left;
+  background-image: url(5.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history6 .slova {
+    float: left;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+
+#history6 h2 {font-size: 4em}
+#history6 h1 {color: #ccc; font-size: 1.5em}
+#history6 .slova2 {font-size: 1.3em}
+
+
+@media (min-width: 561px) {
+  #history6 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history6 h2 {font-size: 2em}
+}
+
+#history6 .img {
+  float: right;
+  width: 30%;
+  margin-right: 11%;
+  margin-top: 50px;
+}
+
+#history6 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+  margin-top: 50px;
+}
+
+#history6 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history6 .img:nth-child(odd) {
+  margin-left: 18%;
+}
+
+
+@media (max-width: 700px) {
+  #history6 .img {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history6 .img1 {
+    width: 80%!important;
+    margin-right: 0!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history6 .slova {
+        width: 80% !important;
+        margin: 10% !important;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+#history13 {
+  float: left;
+  background-image: url(5.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history13 .slova {
+    float: left;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+
+#history13 h2 {font-size: 4em}
+#history13 h1 {color: #D8D8D8; font-size: 1.8em}
+#history13 .slova2 {font-size: 1.3em}
+
+
+@media (min-width: 561px) {
+  #history13 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history13 h2 {font-size: 2em}
+}
+
+#history13 .img {
+  float: right;
+  width: 30%;
+  margin-right: 11%;
+  margin-top: 50px;
+}
+
+#history13 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+  margin-top: 50px;
+}
+
+#history13 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history13 .img:nth-child(odd) {
+  margin-left: 18%;
+}
+
+
+@media (max-width: 700px) {
+  #history13 .img {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history13 .img1 {
+    width: 80%!important;
+    margin-right: 0!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history13 .slova {
+        width: 80% !important;
+        margin: 10% !important;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Блок с история 3 */
+
+#history3 {
+  float: left;
+  background-image: url(6.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history3 .slova {
+    float: left;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+
+#history3 h2 {font-size: 4em}
+#history3 h1 {color: #ccc; font-size: 1.5em}
+
+@media (min-width: 561px) {
+  #history2 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history3 h2 {font-size: 2em}
+}
+
+#history3 .img {
+  float: right;
+  width: 30%;
+  margin-right: 11%;
+  margin-top: 50px;
+}
+
+#history3 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+  margin-top: 50px;
+}
+
+#history3 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history3 .img:nth-child(odd) {
+  margin-left: 18%;
+}
+
+
+@media (max-width: 700px) {
+  #history3 .img {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history3 .img1 {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history3 .slova {
+        width: 80% !important;
+        margin: 10% !important;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+
+
+#history7 {
+  float: left;
+  background-image: url(6.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history7 .slova {
+    float: right;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-top: 25px;
+    margin-left: 3%;
+}
+
+
+#history7 h2 {font-size: 4em}
+#history7 h1 {color: #D8D8D8; font-size: 1.8em}
+
+@media (min-width: 561px) {
+  #history2 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history7 h2 {font-size: 2em}
+}
+
+#history7 .img {
+  float: right;
+  width: 45%;
+  margin-right: 5%;
+  margin-top: 50px;
+}
+
+#history7 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+  margin-top: 70px;
+}
+
+#history7 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history7 .img:nth-child(odd) {
+  margin-left: 9%;
+}
+
+
+@media (max-width: 700px) {
+  #history7 .img {
+    width: 90%!important;
+    margin-right: 5%!important;
+    margin-left: 5%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history7 .img1 {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history7 .slova {
+        width: 90% !important;
+        margin: 5% !important;
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+#history15 {
+  float: left;
+  background-image: url(7.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history15 .slova {
+    float: right;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-left: 3%;
+    margin-top: 50px;
+}
+
+
+#history15 h2 {font-size: 4em}
+#history15 h1 {color: #D8D8D8; font-size: 1.8em}
+
+@media (min-width: 561px) {
+  #history15 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history15 h2 {font-size: 2em}
+}
+
+#history15 .img {
+  float: right;
+  width: 45%;
+  margin-right: 5%;
+  margin-top: 50px;
+}
+
+#history15 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+  margin-top: 40px;
+}
+
+#history15 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history15 .img:nth-child(odd) {
+  margin-left: 9%;
+}
+
+
+@media (max-width: 700px) {
+  #history15 .img {
+    width: 90%!important;
+    margin-right: 5%!important;
+    margin-left: 5%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history15 .img1 {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history15 .slova {
+        width: 90% !important;
+        margin: 5% !important;
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+
+
+
+#history9 {
+  float: left;
+  background-image: url(6.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history9 .slova {
+    float: right;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+
+
+#history9 h2 {font-size: 4em}
+#history9 h1 {color: #D8D8D8; font-size: 1.8em}
+
+@media (min-width: 561px) {
+  #history9 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history9 h2 {font-size: 2em}
+}
+
+#history9 .img {
+  float: right;
+  width: 45%;
+  margin-right: 5%;
+}
+
+#history9 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+}
+
+#history9 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history9 .img:nth-child(odd) {
+  margin-left: 9%;
+}
+
+
+@media (max-width: 700px) {
+  #history9 .img {
+    width: 90%!important;
+    margin-right: 5%!important;
+    margin-left: 5%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history9 .img1 {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history9 .slova {
+        width: 90% !important;
+        margin: 5% !important;
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+
+
+#history10 {
+  float: left;
+  background-image: url(8.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history10 .slova {
+    float: right;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+
+
+#history10 h2 {font-size: 4em}
+#history10 h1 {color: #D8D8D8; font-size: 1.8em}
+
+@media (min-width: 561px) {
+  #history10 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history10 h2 {font-size: 2em}
+}
+
+#history10 .img {
+  float: right;
+  width: 45%;
+  margin-right: 5%;
+}
+
+#history10 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+}
+
+#history10 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history10 .img:nth-child(odd) {
+  margin-left: 9%;
+}
+
+
+@media (max-width: 700px) {
+  #history10 .img {
+    width: 90%!important;
+    margin-right: 5%!important;
+    margin-left: 5%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history10 .img1 {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history10 .slova {
+        width: 90% !important;
+        margin: 5% !important;
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+
+#history11 {
+  float: left;
+  background-image: url(5.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history11 .slova {
+    float: right;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-left: 3%;
+    margin-top: 50px;
+}
+
+
+#history11 h2 {font-size: 4em}
+#history11 h1 {color: #D8D8D8; font-size: 1.8em}
+
+@media (min-width: 561px) {
+  #history11 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history11 h2 {font-size: 2em}
+}
+
+#history11 .img {
+  float: right;
+  width: 45%;
+  margin-right: 5%;
+  margin-top: 50px;
+}
+
+#history11 .img1 {
+  float: left;
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 11%;
+}
+
+#history11 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+#history11 .img:nth-child(odd) {
+  margin-left: 9%;
+}
+
+
+@media (max-width: 700px) {
+  #history11 .img {
+    width: 90%!important;
+    margin-right: 5%!important;
+    margin-left: 5%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history11 .img1 {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history11 .slova {
+        width: 90% !important;
+        margin: 5% !important;
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+
+
+#history12 {
+  float: left;
+  background-image: url(7.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history12 .slova {
+    float: right;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+
+
+#history12 h2 {font-size: 4em}
+#history12 h1 {color: #D8D8D8; font-size: 1.8em}
+
+@media (min-width: 561px) {
+  #history12 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history12 h2 {font-size: 2em}
+}
+
+#history12 .img {
+  float: right;
+  width: 45%;
+  margin-right: 5%;
+}
+
+#history12 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+}
+
+#history12 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history12 .img:nth-child(odd) {
+  margin-left: 9%;
+}
+
+
+@media (max-width: 700px) {
+  #history12 .img {
+    width: 90%!important;
+    margin-right: 5%!important;
+    margin-left: 5%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history12 .img1 {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history12 .slova {
+        width: 90% !important;
+        margin: 5% !important;
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#history14 {
+  float: left;
+  background-image: url(5.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history14 .slova {
+    float: right;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-left: 3%;
+    margin-top: 30px
+}
+
+
+#history14 h2 {font-size: 4em}
+#history14 h1 {color: #D8D8D8; font-size: 1.8em}
+
+@media (min-width: 561px) {
+  #history14 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history14 h2 {font-size: 2em}
+}
+
+#history14 .img {
+  float: right;
+  width: 45%;
+  margin-right: 5%;
+  margin-top: 30px
+}
+
+#history14 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+}
+
+#history14 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history14 .img:nth-child(odd) {
+  margin-left: 9%;
+}
+
+
+@media (max-width: 700px) {
+  #history14 .img {
+    width: 90%!important;
+    margin-right: 5%!important;
+    margin-left: 5%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history14 .img1 {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history14 .slova {
+        width: 90% !important;
+        margin: 5% !important;
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+
+
+/* Блок с история 8 */
+
+#history8 {
+  float: left;
+  background-image: url(6.jpg);
+
+  background-blend-mode: multiply;
+  background-color: #494949;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#history8 .slova {
+    float: left;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 5%;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+
+#history8 h2 {font-size: 4em}
+#history8 h1 {color: #D8D8D8; font-size: 1.8em}
+
+@media (min-width: 561px) {
+  #history8 h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #history8 h2 {font-size: 2em}
+}
+
+#history8 .img {
+  float: right;
+  width: 30%;
+  margin-right: 11%;
+  margin-top: 50px;
+}
+
+#history8 .img1 {
+  float: left;
+  width: 30%;
+  margin-left: 11%;
+  margin-top: 50px;
+}
+
+#history8 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+#history8 .img:nth-child(odd) {
+  margin-left: 18%;
+}
+
+
+@media (max-width: 700px) {
+  #history8 .img {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 700px) {
+  #history8 .img1 {
+    width: 80%!important;
+    margin-right: 10%!important;
+    margin-left: 10%!important;
+  }
+}
+
+@media (max-width: 1001px) {
+    #history8 .slova {
+        width: 80% !important;
+        margin: 10% !important;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+
+
+/* CSS  для контактов */
+
+#contacts {
+    padding: 50px 20%;
+    width: 60%;
+    float: left;
+    background-color: #f6f6f6;
+    border-top: 2px solid silver;
+    color: #484848;
+    font-size: 1.3em;
+}
+
+/*  Небольшой бутстрап для контактов */
+
+@media (min-width: 1401px) {
+    #contacts {
+        padding: 100px 20%;
+        width: 60%;
+    }
+}
+@media (max-width: 1400px) {
+    #contacts {
+    padding: 100px 10%;
+    width: 80%;
+    }
+}
+@media (max-width: 700px) {
+    #contacts span {
+        width: 98% !important;
+        margin-bottom: 20px;
+    }
+}
+
+#contacts span {
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+}
+
+#contacts h2 {font-size: 3em;}
+#contacts span {color: #a0a0a0;}
