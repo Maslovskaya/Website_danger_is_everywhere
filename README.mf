@@ -1,14 +1,1 @@
-# ❄️ Through the Snowstorm: a website-story
 
-An interactive one-page website about a mysterious expedition, hand-made in HTML/CSS. Inspired by visual novels and the atmosphere of detectives.
-
-## 🔧 Technologies
-- HTML5, CSS3, JavaScript (Vanilla)
-- Adaptive layout
-- Hand-made styling without frameworks
-
-## 🖼️ Preview
-![Website screenshot](images/preview.jpg)
-
-## ⚙️ Launch
-Open the file `index.html` in the browser
